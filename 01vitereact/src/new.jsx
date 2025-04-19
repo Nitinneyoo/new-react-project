@@ -1,9 +1,11 @@
 const New = () => {
   return (
-    <div>
-      <h1>New</h1>
-      <p>This is the new page.</p>
-    </div>
+    <div class="new-page">
+    <h2>Your New Section Title</h2>
+    <p>This section has a fresh look with a smooth gradient effect.</p>
+    {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
+<button>Click Here</button>
+</div>
   );
 }
-export default New;
+export default New; 
