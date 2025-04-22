@@ -35,7 +35,7 @@ function App() {
         <button onClick={decrement} className="Bot">Decrement</button>
         <br />
         {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button onClick={reset} className="reset-btn">
+        <button onClick={reset} className="reset-btn p-1 rounded-md cursor-pointer">
           Reset
         </button>
         <br />
