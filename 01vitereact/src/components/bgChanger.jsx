@@ -4,8 +4,8 @@ const BgChanger = () => {
   const [bgColor, setBgColor] = React.useState("gray");
   return (
     <div className="w-full h-screen duration-200 rounded" style={{ backgroundColor: bgColor }}>
-      <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
-        <div className="flex flex-wrap justify-center gap-2 shadow-lg bg-white p-2 rounded-md">
+      <div className=" flex flex-wrap justify-center px-2">
+        <div className="flex flex-wrap justify-center gap-2 shadow-lg bg-white p-2 rounded-md mt-4">
           {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             className="outline-none px-4 py-1 rounded-full cursor-pointer text-black   transition-all duration-300 ease-in-out hover:scale-110"

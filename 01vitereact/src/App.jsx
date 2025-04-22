@@ -4,6 +4,7 @@ import "./App.css";
 import { useState } from "react";
 import Card from "./components/Card";
 import BgChanger from "./components/bgChanger";
+import PasswordGenerator from "./components/passwordGenerator";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -53,12 +54,15 @@ function App() {
         <New />
       </div>
       <div className="mb-4 flex flex-wrap justify-center gap-5">
-        <Card username= "Nitin Singh"/>
-        <Card username= "Ashwanee gupta"/>
-        <Card username= "Ankit Singh"/> 
+        <Card username="Nitin Singh" />
+        <Card username="Ashwanee gupta" />
+        <Card username="Ankit Singh" />
       </div>
       <div className="mb-8">
         <BgChanger />
+      </div>
+      <div className="mb-4">
+        <PasswordGenerator />
       </div>
     </>
   );
