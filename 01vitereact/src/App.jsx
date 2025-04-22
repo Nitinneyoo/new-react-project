@@ -2,6 +2,7 @@ import New from "./new";
 import "./App.css";
 
 import { useState } from "react";
+import Card from "./components/Card";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -28,10 +29,10 @@ function App() {
         <h2 className="counter-value">Counter value {counter}</h2>
 
         {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button onClick={increment}>Increment</button>
+        <button onClick={increment} className="Bot">Increment</button>
         <br />
         {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button onClick={decrement}>Decrement</button>
+        <button onClick={decrement} className="Bot">Decrement</button>
         <br />
         {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
         <button onClick={reset} className="reset-btn">
@@ -40,8 +41,11 @@ function App() {
         <br />
       </div>
 
-      <div>
+      <div className="mb-4">
         <New />
+      </div>
+      <div>
+        <Card />
       </div>
     </>
   );
