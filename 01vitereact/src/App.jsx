@@ -26,7 +26,7 @@ function App() {
   };
   return (
     <>
-      <h1>Nitin Singh | React With Vite</h1>
+      <h1 className="counter-h1">Nitin Singh | React With Vite</h1>
       <div className="counter-container">
         <h2 className="counter-value">Counter value {counter}</h2>
 
