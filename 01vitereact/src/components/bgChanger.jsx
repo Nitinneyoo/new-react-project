@@ -57,8 +57,8 @@ const BgChanger = () => {
           {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
           <button
             className="outline-none px-4 py-1 rounded-full cursor-pointer text-black  transition-all duration-300 ease-in-out hover:scale-110"
-            style={{ backgroundColor: "none" }}
-            onClick={() => setBgColor("")}
+            style={{ backgroundColor: "gray" }}
+            onClick={() => setBgColor("gray")}
           >
             Reset
           </button>
