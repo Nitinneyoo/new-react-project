@@ -5,6 +5,7 @@ import { useState } from "react";
 import Card from "./components/Card";
 import BgChanger from "./components/bgChanger";
 import PasswordGenerator from "./components/passwordGenerator";
+import CurrencyConverter from "./components/currencyConverter";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -63,6 +64,9 @@ function App() {
       </div>
       <div className="mb-4">
         <PasswordGenerator />
+      </div>
+      <div>
+        <CurrencyConverter />
       </div>
     </>
   );
